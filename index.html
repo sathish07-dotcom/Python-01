@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Intro</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>PYTHON</h1>
+
+        
+    <h3>Python is a high-level, interpreted programming language that emphasizes readability, simplicity, and ease of use. <br>It was created by **Guido van Rossum** and first released in **1991**. <br>Python is known for its straightforward syntax, which makes it a popular choice for beginners and experienced developers alike. <br> It can be used for a wide range of applications, from web development and data analysis to machine learning and artificial intelligence.
+</h3>
+    <h2>Advantages of Python:</h2>
+    <li>Easy to Learn and Read: Python's syntax is simple and intuitive, making it easy to read and write. This makes it a great choice for beginners.
+       </li>
+    <li>Cross-platform Compatibility: Python is platform-independent, meaning you can write Python code on one operating system and run it on another without modification.
+    </li>
+    <li>Extensive Libraries and Frameworks: Python has a large standard library and many third-party libraries and frameworks that make it easy to implement complex functionalities (e.g., NumPy, Pandas, TensorFlow, Django).
+    </li>
+    <li>Open Source: Python is open-source, meaning it's free to use, and there is an active community contributing to its development.
+    </li>
+    <li>Versatility: Python can be used for a wide variety of applications such as web development, automation, data science, artificial intelligence, and more.
+    </li>
+    <li>Large Community: Python has a large and active community, meaning there is a wealth of tutorials, documentation, and forums available to help with troubleshooting and learning.
+    </li>
+
+    <div class="div">
+      <div class="item">
+    <h2>Variables in Python</h2>
+    <h3>In Python, a **variable** is a name that is used to store data. You can think of it as a container where information can be stored for later use. Variables are dynamically typed in Python, meaning you don’t need to declare their type explicitly.
+    </h3>
+<p>
+    x = 10  # Here, 'x' is a variable storing an integer value <br>
+    name = "John"  # 'name' is a variable storing a string <br>
+    </p>
+    </div>
+    <div class="item">
+    <h2>Data Types in Python:</h2>
+    <h3>Data types define the kind of value a variable can hold. Python supports several built-in data types:
+    </h3>
+    <li><b>Integers (`int`):</b> Whole numbers, positive or negative.</li>
+    <p>
+       x = 5
+      </p>
+    
+    <li><b>Floating Point Numbers (`float`):</b> Numbers with a decimal point.</li>
+<p>
+       price = 99.99
+       </p>
+    
+    <li><b>Strings (`str`):</b> A sequence of characters enclosed in single or double quotes.</li>
+ <p>
+       message = "Hello, Python!"
+       </p>
+    
+    <li><b>Booleans (`bool`):</b> Represents truth values — `True` or `False`.</li>
+      <p>
+       is_active = True
+      </p>
+    
+    <li><b>Lists (`list`):</b> An ordered collection of items, which can be of different types.</li>
+<p>
+       fruits = ["apple", "banana", "cherry"]
+       </p>
+    
+    <li><b>Tuples (`tuple`):</b> An ordered collection of items, but immutable (can't be changed).</li>
+<p>
+       coordinates = (10.5, 20.3)
+      </p>
+    
+    <li><b>Dictionaries (`dict`):</b> A collection of key-value pairs.</li>
+     <p>
+       student = {"name": "Alice", "age": 21}
+       </p>
+    
+    <li><b>Sets (`set`):</b> An unordered collection of unique items.</li>
+<p>
+       unique_numbers = {1, 2, 3, 4}
+       </p>
+    
+
+    </div>
+    <div class="item">
+    <h2>Operators in Python:</h2>
+    <h3>Operators are symbols that are used to perform operations on variables and values. Python has several types of operators:
+    </h3>
+    <li><b>Arithmetic Operators:</b> Used to perform basic mathematical operations.</li>
+       <strong> `+` (Addition)</strong> <br>
+       <strong>`-` (Subtraction) </strong><br>
+      <strong> `*` (Multiplication) </strong><br>
+       <strong> `/` (Division) </strong><br>
+       <strong> `//` (Floor Division)</strong> <br>
+       <strong> `%` (Modulo)</strong> <br>
+       <strong>`**` (Exponentiation)</strong> <br>
+<p>
+       x = 10 <br>
+       y = 5 <br>
+       sum = x + y  # sum is 15 <br>
+       </p>
+    
+    <li><b>Comparison Operators:</b> Used to compare values and return a boolean (`True` or `False`).</li>
+    <strong>  `==` (Equal to) </strong> <br> 
+    <strong> `!=` (Not equal to) </strong> <br> 
+    <strong> `<` (Less than) </strong> <br> 
+    <strong>`>` (Greater than)  </strong> <br> 
+    <strong> `>=` (Greater than or equal to) </strong> <br> 
+    <strong> `<=` (Less than or equal to)</strong> <br>
+    <p>
+       x = 10 <br>
+       y = 5 <br>
+       result = x > y  # result is True <br>
+       </p>
+    
+    <li><b>Logical Operators:</b> Used to combine conditional statements.</li>
+       
+    <strong> `and` (Returns `True` if both conditions are true) </strong> <br>
+    <strong> `or` (Returns `True` if at least one condition is true)  </strong> <br>
+    <strong> `not` (Reverses the result, returns `True` if the condition is false) </strong> <br>
+<p>
+       x = 10 <br>
+       y = 5 <br>
+       result = (x > y) and (y > 0)  # result is True <br>
+       </p>
+    
+    <li><b>Assignment Operators:</b> Used to assign values to variables.</li>
+    <strong>`=` (Simple assignment) </strong><br>   
+    <strong>`+=`, `-=`, `*=`, `/=`, etc. (Compound assignment operators) </strong> <br>
+    <p>
+       x = 5 <br>
+       x += 2  # x is now 7
+       </p>
+    
+    <li><b>Identity Operators:</b> Used to compare objects' memory locations.</li>
+    <strong>`is` (Returns `True` if both variables point to the same object)</strong><br>   
+    <strong> `is not` (Returns `True` if both variables do not point to the same object)</strong><br>   
+<p>
+       a = [1, 2, 3] <br>
+       b = a <br>
+       result = a is b  # result is True
+       </p>
+    
+    <li><b>Membership Operators:</b> Used to test if a value is present in a sequence (e.g., list, tuple, string).</li>
+    <strong>`in` (Returns `True` if the value is present)</strong><br>   
+    <strong>`not in` (Returns `True` if the value is not present)</strong><br>   
+<p>
+       fruits = ["apple", "banana", "cherry"] <br>
+       result = "apple" in fruits  # result is True <br>
+       </p>
+    
+   
+    </div>
+    </div>
+   
+</body>
+</html>
