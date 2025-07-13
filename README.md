@@ -1,4 +1,4 @@
-# 📘 Python Variables & Operators
+ # 📘 Python Variables & Operators
 
 ## 🧠 What are Variables?
 

@@ -1,3 +1,37 @@
+   
+
+name = "sagar"
+print(name)
+
+a= 20
+b=50
+c=a+b
+print(c)
+
+a=30
+b=10
+c=a-b
+print(c)
+
+a=5
+b=8
+c=a*b
+print(c)
+
+a=100
+b=5
+c=a/b
+print(c)
+
+
+name="laddu"
+greeat="Good morning,"
+print(greeat + name)
+
+pi = 3.14159
+print(pi)
+
+
 name = 'My Name is sagar'
 print(name)
 print(type(name))
@@ -16,11 +50,11 @@ str = "is_python_fun as True"
 print(str)
 print(type(str))
 
-bio = ''' Ejjagiri sathish 
+bio =""" Ejjagiri sathish 
 mca student from kakatiya university
 with 75%
-he got job in a college placement
-'''
+he got job in a college placement"""
+
 
 print(bio)
 print(type(bio))

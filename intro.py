@@ -64,7 +64,7 @@ student ={
 }
 print(student)
 
-'''
+
 # Operators in Python SAME AS JAVASCRIPT
 
 #Arithmetic Operators: Used to perform basic mathematical operations.
@@ -103,4 +103,3 @@ print(a >0 or b>100)
 print(not b<100)
 print(not b>100)
 
-'''
